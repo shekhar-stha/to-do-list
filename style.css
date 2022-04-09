@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color:rgb(120, 122, 231);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    color: white;
+    font-family: 'poppins',sans-serif;
+}
+.container{
+    /* position: absolute; */
+    width: 40%;
+    /* top: 50%;
+    left: 50%; */
+    min-width: 450px;
+    /* transform: translate(-50%,-50%); */
+    padding: 20px 17px;
+    border-radius: 5px;
+}
+
+#values{
+    background-color: aliceblue;
+    padding: 20px 15px;
+    border-radius: 5px;
+    /* position: relative; */
+}
+
+#values input{
+width: 70%;
+height: 35px;
+border: 1px solid rgb(170, 160, 160);
+font-family: 'poppins',sans-serif;
+font-weight: 600;
+color: black;
+padding-left: 10px;
+}
+
+#values .button{
+    position: relative;
+    float: right;
+    width: 23%;
+    height: 35px;
+    border: none;
+    background-color: rgb(120, 122, 231);
+    color: #ffffff;
+    font-family: 'poppins',sans-serif;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+}
+#values .button:hover{
+    background-color: rgb(147, 149, 236);
+}
+
+.container .toDoList{
+    background-color: #ffffff;
+    font-family: 'poppins',sans-serif;
+    position: relative;
+    padding: 10px 10px;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.li-elements{
+    list-style-type: none;
+    font-family: 'poppins',sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 10px 60px 10px 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    justify-content: space-between;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    margin:7px 0px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.finished{
+    text-decoration: line-through;
+}
+
